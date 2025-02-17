@@ -55,8 +55,8 @@ public class Livro {
                 "\nGênero: " + genero + "\n";
     }
 
-    public void listarLivros(ArrayList<Livro> livros){
-        if(!livros.isEmpty()){
+    public static void listarLivros(ArrayList<Livro> livros){
+        if(livros.isEmpty()){
             System.out.println("Não há livros cadastrados");
         }
         else {
